@@ -21,3 +21,9 @@ After the owner changes visibility to public:
 5. If hosting, verify the configured HTTP security headers on the actual HTTPS deployment and test the viewer on desktop/mobile.
 
 GitHub currently requires a paid plan or public visibility for this repository's branch protection. See [protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) and [secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning).
+
+## Current access policy
+
+External pull request creation is restricted to collaborators; only the owner currently has write access and there are no pending collaborator invitations. Automatic merging is disabled. Dependabot alerts and security updates are enabled; updates create pull requests for review rather than merging themselves.
+
+GitHub rejected secret scanning/push protection on the current private repository (feature unavailable), and branch protection (public visibility or an eligible paid plan required). `SECURITY.md` exists, but private vulnerability reporting is not yet available on this private repository. The setup script enables these controls after public visibility, including disabling force pushes and deletion of `main`, with admin enforcement. It does not change the upstream repository or this repository's visibility.

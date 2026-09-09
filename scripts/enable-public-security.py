@@ -17,7 +17,8 @@ repo = json.loads(subprocess.check_output(
 if repo["isPrivate"]:
     raise SystemExit("Repository is private. Visibility is never changed by this script.")
 base = "repos/" + repo["nameWithOwner"]
-api(base, "PATCH", {"security_and_analysis": {
+api(base, "PATCH", {"pull_request_creation_policy": "collaborators_only",
+    "allow_auto_merge": False, "security_and_analysis": {
     "secret_scanning": {"status": "enabled"},
     "secret_scanning_push_protection": {"status": "enabled"}}})
 api(base + "/private-vulnerability-reporting", "PUT")
