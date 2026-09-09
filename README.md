@@ -1,72 +1,93 @@
 # جسم الإنسان
 
-أطلس تشريحي تفاعلي بالعربية، مبني على Human Atlas. واجهة RTL بخط IBM Plex Sans Arabic وأرقام 0–9، وبحث ثنائي اللغة ودروس واختبارات أولية.
+أطلس تشريحي تفاعلي ثلاثي الأبعاد بواجهة عربية، مبني على المشروع الأصلي **[Human Atlas — ashemag/human-atlas](https://github.com/ashemag/human-atlas)** باستخدام React وThree.js وshadcn/ui. تحتفظ هذه النسخة بمحرك العرض وهندسة التشريح ومعرّفات البنى وحقوق أصحاب المشروع والبيانات الأصلية.
 
-See [Arabic edition setup, validation and terminology coverage](ARABIC-EDITION.md). Arabic terminology currently covers 381 of 3,432 concepts; English source terminology remains available throughout.
+استكشف **2,234 جزءًا قابلًا للتحديد** ضمن **15 جهازًا ومجموعة تشريحية**، وابحث بين **3,432 مفهومًا تشريحيًا** من نموذج BodyParts3D المرجعي لذكر بالغ.
 
-## Original project documentation
+> **English overview:** Jism Al Insan is an Arabic-first adaptation of [Human Atlas by ashemag](https://github.com/ashemag/human-atlas). It preserves the original Three.js renderer, anatomy geometry, source identifiers, and attribution, while adding an RTL interface, IBM Plex Sans Arabic, Latin digits (0–9), bilingual search, introductory lessons, and quizzes. Arabic terminology currently covers **381 of 3,432 concepts**; untranslated structures retain their English source names.
 
-# Human Atlas
+## المزايا والاستكشاف
 
-An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.
+- تدوير النموذج وتكبيره وتحديد البنى مباشرة على الجسم.
+- إظهار الأجهزة أو إخفاؤها، مع إعدادات سريعة للعظام والأعضاء.
+- تفكيك التشريح تدريجيًا إلى عرض متباعد للأجزاء الظاهرة.
+- البحث بالعربية والإنجليزية ومعرّفات المصدر، مع تجاهل التشكيل والتطويل وتوحيد بعض صور الحروف العربية.
+- عزل البنية المحددة وعرض اسمها العربي، عند توفره، إلى جانب اسمها الإنجليزي.
+- واجهة من اليمين إلى اليسار بخط **IBM Plex Sans Arabic** وأرقام **0–9**، مع أدوات متجاوبة للهاتف والحاسوب.
+- **8 دروس تمهيدية** واختبار من **8 أسئلة** مع تصحيح الإجابات واحتساب النتيجة.
 
-**[Explore the live demo](https://human-atlas-seven.vercel.app)**
+## المشروع الأصلي وحقوق المساهمة
 
-## Explore
+هذه نسخة معدّلة من **[https://github.com/ashemag/human-atlas](https://github.com/ashemag/human-atlas)**، وليست إعادة بناء مستقلة لمحرك التشريح. يعود الفضل في الأساس البرمجي وتجهيز النموذج إلى المشروع الأصلي ومساهميه؛ وتضيف هذه النسخة التعريب وميزات التعلّم والاختبار وتحسينات الواجهة.
 
-- Orbit, zoom, and select structures directly on the body.
-- Toggle individual systems or use skeleton and organ presets.
-- Move from assembled anatomy to a spaced inventory of every visible piece.
-- Search anatomical names and source identifiers.
-- Isolate a selected structure and read its details.
-- Use compact controls and detail panels on mobile.
+[العرض التجريبي للمشروع الأصلي باللغة الإنجليزية](https://human-atlas-seven.vercel.app) — هذا الرابط يعرض المشروع الأصلي، وليس النسخة العربية الحالية.
 
-## Run locally
+## التشغيل محليًا
 
-Requires Node.js 22.13 or newer. No API keys or accounts are needed.
+يتطلب المشروع **Node.js 22.13 أو أحدث**. لا يلزم حساب أو مفتاح API لتشغيل التطبيق محليًا.
 
 ```sh
 npm ci
-npm run dev
+npm run dev -- --host 127.0.0.1
 ```
 
-Open http://localhost:3016. To build the static site, run `npm run build`; the output is in `dist/`.
+افتح [المعاينة المحلية](http://127.0.0.1:3016/). لإنشاء نسخة الإنتاج:
 
-## Validate
+```sh
+npm run build
+```
+
+تُحفظ ملفات البناء في `dist/`. يتوفر المزيد عن الإعداد والتغطية والقيود في [دليل النسخة العربية](ARABIC-EDITION.md).
+
+## التحقق والاختبارات
 
 ```sh
 npm run check
 node scripts/validate-atlas.mjs
 node scripts/validate-interactions.mjs
+node scripts/validate-arabic.mjs
+node scripts/validate-explosion-camera.mjs
 npm run build
 ```
 
-Validation covers mesh buffers, names and concept membership, nonoverlapping exploded layouts at desktop and mobile aspect ratios, search and inspection contracts, and tap-versus-drag handling. Browser interaction checks have exercised selection, system controls, search, isolation, rotation, and 390×844, 320×568, and 844×390 layouts. Phone controls stay clear of the exploded inventory, and isolated structures fit the space above or beside the detail panel. Physical-device performance and real multitouch hardware have not been tested.
+تشمل الفحوص سلامة ملفات الهندسة وربط الأجزاء بالمفاهيم، وعدم تداخل الأجزاء في تخطيط التفكيك، والبحث والتحديد والتمييز بين النقر والسحب. تتحقق الفحوص الإضافية من تطبيع البحث العربي، والمصطلحات، واستمرارية حركة مركز الكاميرا أثناء التفكيك.
 
-## Anatomy data
+شملت المراجعة في المتصفح التحديد والبحث والعزل وأوضاع التعلّم والاختبار وعرض الهاتف. لم يُختبر الأداء على أجهزة هاتف فعلية أو اللمس المتعدد باستخدام عتاد حقيقي.
 
-The current viewer uses **BodyParts3D 4.0**, an adult male reference anatomy, licensed **CC BY 4.0**. It does not represent every human structure or variation. Individual source meshes are distinct from named concepts, which may group multiple meshes. Descriptions distinguish general system context from individual organ explanations.
+## بيانات التشريح وتغطية الترجمة
 
-Geometry is simplified for browser performance while retaining every source mesh. The packaged model contains 2,288,268 triangles and downloads approximately 33 MB of compressed geometry. Full credits, source links, and adaptation details are in [ATTRIBUTION.md](public/ATTRIBUTION.md).
+يستخدم العارض **BodyParts3D 4.0**، وهو نموذج تشريحي مرجعي لذكر بالغ مرخّص بموجب **CC BY 4.0**. لا يمثل كل البنى البشرية أو الاختلافات التشريحية. قد يضم المفهوم المسمى عدة أجزاء هندسية منفصلة، وتميز الأوصاف بين شرح العضو ونبذة عامة عن الجهاز.
 
-This is an educational explorer, not a diagnostic or surgical tool.
+تغطي المصطلحات العربية حاليًا **381 من 3,432 مفهومًا**. تبقى أسماء المصدر الإنجليزية متاحة، وتحتاج بقية المفاهيم إلى استكمال الترجمة. يمكن توسيع القاموس في `app/arabic.ts` دون تغيير معرّفات التشريح أو ملفات النموذج.
 
-## How it works
+تضم الهندسة المرفقة **2,288,268 مثلثًا**، ويبلغ حجم تنزيل الهندسة المضغوطة نحو **33 MB**. جرى تبسيطها للعرض في المتصفح مع الاحتفاظ بكل جزء مصدري. راجع [حقوق البيانات ومصادرها](public/ATTRIBUTION.md) للاطلاع على الإسناد وتفاصيل التعديلات.
 
-Geometry is merged into batches. Per-structure GPU textures control translation, visibility, and selection, while component geometry supports accurate picking. Exploded layouts pack only the visible pieces. Rendering updates when the scene changes; orbit controls remain responsive without thousands of separate draw calls.
+التطبيق أداة استكشاف تعليمية، وليس أداة للتشخيص أو الجراحة.
 
-The optional WebMCP tools expose anatomy search and inspection in compatible browsers. The visible interface works without them.
+## آلية العمل
 
-## Rebuilding geometry
+تُجمع الهندسة في دفعات للرسم. تتحكم بيانات تُرسل إلى معالج الرسوم في إزاحة كل بنية وظهورها وتحديدها، مع الاحتفاظ بهندسة الأجزاء لاختيارها بدقة. يشمل تخطيط التفكيك الأجزاء الظاهرة فقط، ويتجدد الرسم عند تغير المشهد لتقليل عدد عمليات الرسم المنفصلة.
 
-The repository includes browser-ready geometry. Rebuilding it is optional: obtain the official BodyParts3D OBJ archive and English metadata tables, prepare the joined concepts and display-system mappings, run `scripts/convert-anatomy.py`, then `node scripts/optimize-anatomy.mjs` and `node scripts/compress-models.mjs`. Simplification uses a 0.2% relative error limit per structure.
+تتيح أدوات **WebMCP** الاختيارية البحث والتحديد في المتصفحات المتوافقة. تعمل الواجهة المرئية من دونها.
 
-## Deploy
+## إعادة تجهيز الهندسة
 
-Import this repository into Vercel as a Vite project. The included `vercel.json` configures `npm ci`, `npm run build`, and the `dist` output directory. It can also be served by a static host.
+يتضمن المستودع هندسة جاهزة للمتصفح؛ وإعادة تجهيزها اختيارية. تتطلب هذه العملية أرشيف OBJ الرسمي من BodyParts3D وجداول البيانات الإنجليزية، ثم إعداد ربط المفاهيم ومجموعات العرض وتشغيل `scripts/convert-anatomy.py`، وبعده `scripts/optimize-anatomy.mjs` و`scripts/compress-models.mjs`. يستخدم التبسيط حد خطأ نسبيًا قدره **0.2%** لكل بنية.
 
-## License
+## النشر
 
-Original application code is released under the [MIT License](LICENSE). **The anatomy data has its own CC BY 4.0 license**; preserve the attribution when redistributing it. Third-party dependencies retain their respective licenses.
+يمكن استيراد المستودع إلى Vercel بوصفه مشروع Vite. يحدد الملف `vercel.json` تثبيت الاعتماديات باستخدام `npm ci`، والبناء باستخدام `npm run build`، ومجلد الإخراج `dist`. يمكن أيضًا تقديم ملفات البناء عبر استضافة ملفات ثابتة.
 
-Issues and pull requests are welcome. Please include reproduction steps and browser/device details for interaction problems.
+## الترخيص والمساهمة
+
+الشيفرة الأصلية متاحة بموجب [ترخيص MIT](LICENSE). **لبيانات التشريح ترخيص منفصل هو CC BY 4.0**؛ يجب الحفاظ على الإسناد عند إعادة توزيعها. تحتفظ المكتبات الخارجية بتراخيصها الخاصة، وخط IBM Plex Sans Arabic مرخّص بموجب SIL Open Font License.
+
+نرحب بتقارير المشكلات وطلبات الدمج. عند الإبلاغ عن مشكلة في التفاعل، أرفق خطوات إعادة إنتاجها واسم المتصفح والجهاز.
+
+## For English readers
+
+This repository contains the Arabic edition of **Jism Al Insan**, derived from [ashemag/human-atlas](https://github.com/ashemag/human-atlas). The original project and BodyParts3D retain their respective credits and licenses. The linked upstream demo is the original English application, not a deployment of this Arabic edition.
+
+To run locally, install **Node.js 22.13+**, run `npm ci`, then `npm run dev -- --host 127.0.0.1`, and open [http://127.0.0.1:3016](http://127.0.0.1:3016). Run `npm run build` to generate the static site in `dist/`. No API keys are required. See [ARABIC-EDITION.md](ARABIC-EDITION.md) for implementation details, validation, and known limitations.
+
+English anatomical names remain available alongside translated Arabic names. Translation coverage is incomplete, and the model is an adult male reference rather than a complete representation of human anatomical variation. The application is intended for education, not diagnosis or surgical planning. Code is MIT-licensed; anatomy data is separately licensed under **CC BY 4.0**, with full attribution in [public/ATTRIBUTION.md](public/ATTRIBUTION.md).
