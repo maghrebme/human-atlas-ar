@@ -37,7 +37,7 @@ npm run build
 
 ## Translation coverage
 
-146 of 3,432 source concepts currently resolve to Arabic labels (including left/right variants). This is a curated starter dictionary, not a complete Arabic anatomical nomenclature. Extend `app/arabic.ts` with exact canonical English keys; do not edit `public/models/atlas.json` or translate IDs. Untranslated structures explicitly retain their source name. Detailed Arabic explanations cover nine major structures; other descriptions are labeled as system overviews.
+381 of 3,432 source concepts currently resolve to Arabic labels (including left/right variants). This is a curated starter dictionary, not a complete Arabic anatomical nomenclature. Extend `app/arabic.ts` with exact canonical English keys; do not edit `public/models/atlas.json` or translate IDs. Untranslated structures explicitly retain their source name. Detailed Arabic explanations cover nine major structures; other descriptions are labeled as system overviews.
 
 ## Validation
 

@@ -2,7 +2,7 @@
 
 أطلس تشريحي تفاعلي بالعربية، مبني على Human Atlas. واجهة RTL بخط IBM Plex Sans Arabic وأرقام 0–9، وبحث ثنائي اللغة ودروس واختبارات أولية.
 
-See [Arabic edition setup, validation and terminology coverage](ARABIC-EDITION.md). Arabic terminology currently covers 146 of 3,432 concepts; English source terminology remains available throughout.
+See [Arabic edition setup, validation and terminology coverage](ARABIC-EDITION.md). Arabic terminology currently covers 381 of 3,432 concepts; English source terminology remains available throughout.
 
 ## Original project documentation
 
