@@ -1,0 +1,680 @@
+abdomen|البطن
+abdomen proper|البطن الحقيقي
+abdominal segment|القطعة البطنية
+alimentary system|الجهاز الهضمي
+amygdala|اللوزة الدماغية
+anastomosis|المفاغرة
+anatomical boundary entity|حد تشريحي
+anatomical cavity|الجوف التشريحي
+anatomical cluster|تجمع تشريحي
+anatomical compartment space|حيز الحجرة التشريحية
+anatomical conduit space|حيز الممر التشريحي
+anatomical entity|كيان تشريحي
+anatomical junction|موصل تشريحي
+anatomical line|خط تشريحي
+anatomical lobe|فص تشريحي
+anatomical set|مجموعة تشريحية
+anatomical space|حيز تشريحي
+anatomical structure|بنية تشريحية
+angular gyrus|التلفيف الزاوي
+aortic valve|الصمام الأبهري
+archicortex|القشرة المخية القديمة
+arm|العضد
+arteria princeps pollicis|الشريان الرئيسي للإبهام
+arteria radialis indicis|الشريان الكعبري للسبابة
+arterial trunk|الجذع الشرياني
+artery|الشريان
+arteries|الشرايين
+articular disk|القرص المفصلي
+aryepiglotticus|العضلة الطرجهالية لسان المزمارية
+arytenoid cartilage|الغضروف الطرجهالي
+atlas|الأطلس (الفقرة العنقية الأولى)
+axial skeletal system|الجهاز الهيكلي المحوري
+axial skeleton|الهيكل العظمي المحوري
+axis|المحور (الفقرة العنقية الثانية)
+azygos vein|الوريد الفرد
+back|الظهر
+basal ganglion|العقدة القاعدية
+basicranium|قاعدة القحف
+basilic vein|الوريد البازلي
+big toe|إبهام القدم
+bile duct|القناة الصفراوية
+biliary tree|الشجرة الصفراوية
+body|الجسم
+body cavity content|محتويات جوف الجسم
+body compartment|حجرة الجسم
+body proper|الجسم الحقيقي
+body wall|جدار الجسم
+bone|العظم
+bone organ|عضو عظمي
+bony pectoral girdle|الحزام الكتفي العظمي
+bony pelvis|الحوض العظمي
+brachiocephalic artery|الشريان العضدي الرأسي
+brachiocephalic vein|الوريد العضدي الرأسي
+brachium|الذراع
+brainstem|جذع الدماغ
+branch|الفرع
+branches|الفروع
+bronchial tree|الشجرة القصبية
+bronchus|القصبة
+calcaneal tendon|الوتر العقبي
+calcaneus|عظم العقب
+callosomarginal artery|الشريان الثفني الهامشي
+canine tooth|الناب
+capitate|العظم الكبير
+capsule|المحفظة
+cardinal organ part|جزء أساسي من عضو
+cardinal segment|القطعة الأساسية
+cardinal tissue part|جزء نسيجي أساسي
+cardinal body part|جزء أساسي من الجسم
+cardiovascular system|الجهاز القلبي الوعائي
+carpal bone|عظم الرسغ
+cartilage organ|عضو غضروفي
+cartilage organ component|مكوّن عضو غضروفي
+cartilaginous skeleton|الهيكل الغضروفي
+caudate lobe|الفص المذنب
+caudate lobe branch|فرع الفص المذنب
+caudate lobe tributary|رافد الفص المذنب
+caudate nucleus|النواة المذنبة
+cavernous organ|عضو كهفي
+cavitated organ|عضو ذو جوف
+cavity|الجوف
+cardiac chamber|حجرة القلب
+cardiac valve|صمام القلب
+celiac artery|الشريان البطني
+coeliac artery|الشريان البطني
+celiac trunk|الجذع البطني
+cell part cluster|تجمع أجزاء خلوية
+central canal|القناة المركزية
+cephalic vein|الوريد الرأسي
+cerebral aqueduct|المسال الدماغي
+cerebral arterial circle|الدائرة الشريانية الدماغية
+cerebral hemisphere|نصف الكرة المخية
+cerebral white matter|المادة البيضاء المخية
+cervical intervertebral symphysis|الارتفاق بين الفقرات العنقية
+cervical rotator|العضلة المدورة العنقية
+cervical vertebra|الفقرة العنقية
+cervical vertebrae|الفقرات العنقية
+cervical vertebral column|العمود الفقري العنقي
+chamber|الحجرة
+check ligament|الرباط الكابح
+cheek|الخد
+chest|الصدر
+chest wall|جدار الصدر
+choroid|المشيمية
+choroid plexus|الضفيرة المشيمية
+ciliary ganglion|العقدة الهدبية
+ciliary body|الجسم الهدبي
+cingulate gyrus|التلفيف الحزامي
+circumventricular organ|عضو محيط بالبطينات
+coccygeus|العضلة العصعصية
+commissure|الصوار
+common tendinous ring|الحلقة الوترية المشتركة
+compartment|الحجرة
+constrictor muscle|العضلة المضيقة
+content|المحتويات
+conus artery|شريان المخروط
+conus branch|فرع المخروط
+conus elasticus|المخروط المرن
+corniculate cartilage|الغضروف القريني
+corona ciliaris|الإكليل الهدبي
+coronary sinus tree|شجرة الجيب التاجي
+corpus callosum|الجسم الثفني
+corpus cavernosum|الجسم الكهفي
+corpus spongiosum|الجسم الإسفنجي
+cortex|القشرة
+corticomedullary organ|عضو قشري لبي
+costal cartilage|الغضروف الضلعي
+costocervical artery|الشريان الضلعي العنقي
+costocervical trunk|الجذع الضلعي العنقي
+cricoid cartilage|الغضروف الحلقي
+cricothyroid|العضلة الحلقية الدرقية
+cricothyroid ligament|الرباط الحلقي الدرقي
+cuboid bone|العظم المكعب
+cuneiform bone|العظم الإسفيني
+cuneiform cartilage|الغضروف الإسفيني
+cusp|الشرفة
+cystic duct|القناة المرارية
+decussation|التصالب
+deep palmar arch|القوس الراحية العميقة
+deferent duct|الأسهر
+diencephalon|الدماغ البيني
+digastric|العضلة ذات البطنين
+dorsalis pedis artery|شريان ظهر القدم
+dorsum|الظهر
+duct|القناة
+endocrine system|جهاز الغدد الصماء
+epididymis|البربخ
+epiglottis|لسان المزمار
+epithalamus|فوق المهاد
+ethmoid|العظم الغربالي
+ear|الأذن
+extra-ocular muscle|العضلة خارج المقلة
+external anal sphincter|العضلة العاصرة الشرجية الخارجية
+extrahepatic bile duct|القناة الصفراوية خارج الكبد
+eyebrow|الحاجب
+face|الوجه
+fascia lata|اللفافة العريضة
+fibularis brevis|العضلة الشظوية القصيرة
+fibularis longus|العضلة الشظوية الطويلة
+fibularis tertius|العضلة الشظوية الثالثة
+flexor accessorius|العضلة المربعة الأخمصية
+flexor digiti minimi brevis|العضلة المثنية القصيرة للخنصر
+abductor digiti minimi|العضلة المبعدة للخنصر
+opponens digiti minimi|العضلة المقابلة للخنصر
+flexor retinaculum|قيد العضلات المثنية
+foot|القدم
+foot proper|القدم الحقيقية
+forearm|الساعد
+forebrain|الدماغ الأمامي
+fornix|القبو
+frontal bone|العظم الجبهي
+frontal lobe|الفص الجبهي
+frontal nerve|العصب الجبهي
+fusiform gyrus|التلفيف المغزلي
+ganglion|العقدة العصبية
+gastro-epiploic artery|الشريان المعدي الثربي
+gastroepiploic vein|الوريد المعدي الثربي
+gastroduodenal artery|الشريان المعدي الاثنا عشري
+gastrointestinal tract|السبيل الهضمي
+gemellus|العضلة التوأمية
+genioglossus|العضلة الذقنية اللسانية
+geniohyoid|العضلة الذقنية اللامية
+genital system|الجهاز التناسلي
+gingiva|اللثة
+glans penis|حشفة القضيب
+globus pallidus|الكرة الشاحبة
+gluteal muscle|العضلة الألوية
+gray matter|المادة الرمادية
+great saphenous vein|الوريد الصافن الكبير
+small saphenous vein|الوريد الصافن الصغير
+gyrus|التلفيف
+habenula|العنان
+hair|الشعر
+hairs|الأشعار
+facial hairs|أشعار الوجه
+hamate|العظم الكلابي
+hand|اليد
+hand proper|اليد الحقيقية
+head|الرأس
+head proper|الرأس الحقيقي
+hemiazygos vein|الوريد نصف الفرد
+hemiliver|نصف الكبد
+hepatic artery proper|الشريان الكبدي الخاص
+hepatic biliary tree|الشجرة الصفراوية الكبدية
+hepatic duct|القناة الكبدية
+hepatic portal vein|الوريد البابي الكبدي
+hepatovenous subsector|القطاع الفرعي الوريدي الكبدي
+hepatovenous segment|القطعة الوريدية الكبدية
+heterogeneous cluster|تجمع غير متجانس
+heterogeneous clusters|تجمعات غير متجانسة
+hindbrain|الدماغ الخلفي
+hip|الورك
+hip bone|عظم الورك
+hippocampal formation|التشكيل الحصيني
+hippocampus|الحصين
+hollow tree organ|عضو شجري أجوف
+human body|جسم الإنسان
+hyo-epiglottic ligament|الرباط اللامي لسان المزماري
+hyoglossus|العضلة اللامية اللسانية
+hyoid bone|العظم اللامي
+hypothalamus|الوطاء
+hypothenar muscle|عضلة ضرة الخنصر
+ileocecal junction|الموصل اللفائفي الأعوري
+ileocolic artery|الشريان اللفائفي القولوني
+ileocolic vein|الوريد اللفائفي القولوني
+iliococcygeus|العضلة الحرقفية العصعصية
+iliocostalis|العضلة الحرقفية الضلعية
+iliocostalis cervicis|العضلة الحرقفية الضلعية العنقية
+iliocostalis lumborum|العضلة الحرقفية الضلعية القطنية
+iliocostalis thoracis|العضلة الحرقفية الضلعية الصدرية
+iliolumbar vein|الوريد الحرقفي القطني
+iliotibial tract|السبيل الحرقفي الظنبوبي
+immaterial anatomical entity|كيان تشريحي غير مادي
+incisor tooth|السن القاطعة
+index finger|السبابة
+colliculus|الأكيمة
+inferior nasal concha|المحارة الأنفية السفلية
+inferior oblique|العضلة المائلة السفلية
+superior oblique|العضلة المائلة العلوية
+inferior rectus|العضلة المستقيمة السفلية
+superior rectus|العضلة المستقيمة العلوية
+medial rectus|العضلة المستقيمة الإنسية
+lateral rectus|العضلة المستقيمة الوحشية
+pharyngeal constrictor|العضلة المضيقة للبلعوم
+inflow part|جزء المدخل
+outflow part|جزء المخرج
+infrahyoid muscle|العضلة تحت اللامية
+infraspinatus|العضلة تحت الشوكة
+infratrochlear nerve|العصب تحت البكري
+insula|الجزيرة
+integument|اللحاف
+integumentary system|الجهاز اللحافي
+intercostal muscle|العضلة الوربية
+intermediate tendon|الوتر المتوسط
+internal capsule|المحفظة الداخلية
+interosseous membrane|الغشاء بين العظمين
+interosseous|العضلة بين العظمية
+interpeduncular fossa|الحفرة بين السويقتين
+interspinalis muscle|العضلة بين الشوكية
+interspinalis thoracis|العضلة بين الشوكية الصدرية
+intertransversarius muscle|العضلة بين المستعرضات
+interventricular foramen|الثقبة بين البطينين
+intervertebral disk|القرص بين الفقرات
+intervertebral symphysis|الارتفاق بين الفقرات
+investing fascia|اللفافة المغلفة
+iris|القزحية
+knee|الركبة
+lacrimal apparatus|الجهاز الدمعي
+lacrimal bone|العظم الدمعي
+lacrimal canaliculus|القنيّة الدمعية
+lacrimal duct|القناة الدمعية
+lacrimal gland|الغدة الدمعية
+lacrimal lake|البحيرة الدمعية
+lacrimal nerve|العصب الدمعي
+lacrimal sac|الكيس الدمعي
+lamina|الصفيحة
+lamina terminalis|الصفيحة الانتهائية
+laryngeal cartilage|الغضروف الحنجري
+lateral crico-arytenoid|العضلة الحلقية الطرجهالية الوحشية
+posterior crico-arytenoid|العضلة الحلقية الطرجهالية الخلفية
+geniculate body|الجسم الركبي
+lumbar intertransversarius|العضلة بين المستعرضات القطنية
+lateral ventricle|البطين الجانبي
+layer|الطبقة
+leaf|الوريقة
+leaflet|الوريقة
+leg|الساق
+levator palpebrae superioris|العضلة الرافعة للجفن العلوي
+levator scapulae|العضلة الرافعة للكتف
+levator veli palatini|العضلة الرافعة لشراع الحنك
+levator ani|العضلة الرافعة للشرج
+ligament|الرباط
+ligament organ|عضو رباطي
+ligament organ component|مكوّن عضو رباطي
+limbic lobe|الفص الحوفي
+linea alba|الخط الأبيض
+lip|الشفة
+little finger|الخنصر
+little toe|خنصر القدم
+lobe|الفص
+lobe branch|الفرع الفصي
+lobular organ|عضو فصيصي
+lobular organ component|مكوّن عضو فصيصي
+lobular segment|القطعة الفصيصية
+lobule|الفصيص
+longissimus|العضلة الأطول
+longissimus capitis|العضلة الأطول للرأس
+longissimus cervicis|العضلة الأطول للعنق
+longissimus thoracis|العضلة الأطول للصدر
+longus capitis|العضلة الطويلة للرأس
+longus colli|العضلة الطويلة للعنق
+loose connective tissue|النسيج الضام الرخو
+connective tissue|النسيج الضام
+irregular connective tissue|النسيج الضام غير المنتظم
+eyelid|الجفن
+jaw|الفك
+upper jaw|الفك العلوي
+lower jaw|الفك السفلي
+limb|الطرف
+upper limb|الطرف العلوي
+lower limb|الطرف السفلي
+lobar artery|الشريان الفصي
+lobar vein|الوريد الفصي
+lobe part|الجزء الفصي
+respiratory tract|السبيل التنفسي
+urinary tract|السبيل البولي
+lumbar intervertebral symphysis|الارتفاق بين الفقرات القطنية
+lumbar rotator|العضلة المدورة القطنية
+lumbar vertebra|الفقرة القطنية
+lumbar vertebrae|الفقرات القطنية
+lumbar vertebral column|العمود الفقري القطني
+lumbrical|العضلة الدودية
+lumbricals|العضلات الدودية
+lunate|العظم الهلالي
+main bronchus|القصبة الرئيسية
+main bronchus proper|القصبة الرئيسية الحقيقية
+alar cartilage|الغضروف الجناحي
+salivary gland|الغدة اللعابية
+mammillary body|الجسم الحلمي
+manubrium|قبضة القص
+material anatomical entity|كيان تشريحي مادي
+median antebrachial vein|الوريد المتوسط للساعد
+median cubital vein|الوريد المرفقي الناصف
+mediastinum|المنصف
+membrane organ|عضو غشائي
+membrane organ component|مكوّن عضو غشائي
+mesentery|المسراق
+mesoappendix|مسراق الزائدة الدودية
+metacarpal bone|عظم مشط اليد
+metatarsal bone|عظم مشط القدم
+metencephalon|الدماغ التالي
+midbrain|الدماغ المتوسط
+midbrain tectum|سقف الدماغ المتوسط
+middle finger|الإصبع الوسطى
+phalanx|السلامية
+mitral valve|الصمام التاجي
+molar tooth|السن الرحوية
+premolar tooth|السن الضاحكة
+secondary canine tooth|الناب الدائم
+secondary incisor tooth|القاطعة الدائمة
+secondary molar tooth|الرحى الدائمة
+secondary premolar tooth|الضاحكة الدائمة
+mons pubis|جبل العانة
+mouth|الفم
+mucoid tissue|النسيج المخاطي
+muscle|العضلة
+muscle layer|الطبقة العضلية
+muscle organ|عضو عضلي
+musculature|الجهاز العضلي
+musculophrenic artery|الشريان العضلي الحجابي
+musculophrenic vein|الوريد العضلي الحجابي
+musculoskeletal system|الجهاز العضلي الهيكلي
+mylohyoid|العضلة الضرسية اللامية
+myocardial zone|المنطقة العضلية القلبية
+myocardium|عضلة القلب
+nasal bone|العظم الأنفي
+nasal cartilage|الغضروف الأنفي
+nasal septum|الحاجز الأنفي
+nasal skeleton|الهيكل الأنفي
+nasociliary nerve|العصب الأنفي الهدبي
+nasolacrimal duct|القناة الأنفية الدمعية
+navicular bone|العظم الزورقي القدمي
+neck|العنق
+nerve|العصب
+nerve trunk|الجذع العصبي
+nervous system|الجهاز العصبي
+neural tree organ|عضو شجري عصبي
+neuraxis|المحور العصبي
+neurocranium|القحف العصبي
+nonparenchymatous organ|عضو غير متني
+nonskeletal ligament|رباط غير هيكلي
+nose|الأنف
+nuclear complex|المركب النووي
+nucleus|النواة
+oblique arytenoid|العضلة الطرجهالية المائلة
+obliquus capitis inferior|العضلة المائلة السفلية للرأس
+obliquus capitis superior|العضلة المائلة العلوية للرأس
+obturator muscle|العضلة السدادية
+occipital bone|العظم القذالي
+occipital lobe|الفص القذالي
+omohyoid|العضلة الكتفية اللامية
+ophthalmic nerve|العصب العيني
+oculomotor nerve|العصب المحرك للعين
+optic chiasm|التصالب البصري
+optic tract|السبيل البصري
+orbit|الحجاج
+orbital compartment|الحجرة الحجاجية
+orbital content|محتويات الحجاج
+orbital gyrus|التلفيف الحجاجي
+organ|العضو
+organs|الأعضاء
+organ part|جزء العضو
+organ parts|أجزاء الأعضاء
+organ regions|مناطق الأعضاء
+organ cavity subdivision|قسم فرعي من جوف عضو
+organ chamber|حجرة العضو
+organ component|مكوّن العضو
+organ component cluster|تجمع مكوّنات عضو
+organ component gland|غدة مكوّنة لعضو
+organ component layer|طبقة مكوّنة لعضو
+organ part cluster|تجمع أجزاء عضو
+organ region|منطقة العضو
+organ segment|قطعة العضو
+organ zone|نطاق العضو
+osseous skeleton|الهيكل العظمي
+palatine bone|العظم الحنكي
+palatopharyngeus|العضلة الحنكية البلعومية
+pancreatic duct|القناة البنكرياسية
+pancreatic duct tree|شجرة القنوات البنكرياسية
+pancreaticobiliary system|الجهاز البنكرياسي الصفراوي
+papillary muscle|العضلة الحليمية
+parahippocampal gyrus|التلفيف المجاور للحصين
+parasympathetic ganglion|العقدة نظيرة الودية
+parenchyma|المتن
+parenchymatous organ|عضو متني
+parietal bone|العظم الجداري
+parietal lobe|الفص الجداري
+pectoral girdle|الحزام الكتفي
+pectoral muscle|العضلة الصدرية
+peduncle|السويقة
+pelvic girdle|الحزام الحوضي
+pelvic skeleton|الهيكل الحوضي
+pelvic wall|جدار الحوض
+pericallosal artery|الشريان المحيط بالثفن
+perineal muscle|العضلة العجانية
+perineum|العجان
+peritoneal mesentery|المسراق الصفاقي
+peritoneal sac|الكيس الصفاقي
+peritoneum|الصفاق
+pharyngeal raphe|الرفاء البلعومي
+physical anatomical entity|كيان تشريحي فيزيائي
+pineal body|الجسم الصنوبري
+pisiform|العظم الحمصي
+plantar arch|القوس الأخمصية
+plantar venous arch|القوس الوريدية الأخمصية
+plantar interosseous|العضلة بين العظمية الأخمصية
+plantar tarsal ligament|الرباط الرصغي الأخمصي
+platysma|العضلة الجلدية للعنق
+portal venous system|الجهاز الوريدي البابي
+portal venous tree|الشجرة الوريدية البابية
+portion|جزء
+postcentral gyrus|التلفيف خلف المركزي
+postvertebral muscle|العضلة خلف الفقرية
+precentral gyrus|التلفيف أمام المركزي
+prefrontal cortex|القشرة أمام الجبهية
+prevertebral muscle|العضلة أمام الفقرية
+process|الناتئ
+pterygomandibular raphe|الرفاء الجناحي الفكي
+pubic hair|شعر العانة
+pubococcygeus|العضلة العانية العصعصية
+puborectalis|العضلة العانية المستقيمية
+pulmonary arterial tree|الشجرة الشريانية الرئوية
+pulmonary arterial trunk|الجذع الشرياني الرئوي
+pulmonary trunk|الجذع الرئوي
+pulmonary valve|الصمام الرئوي
+pulmonary vascular system|الجهاز الوعائي الرئوي
+pulmonary venous tree organ|عضو الشجرة الوريدية الرئوية
+pulmopleural compartment|الحجرة الرئوية الجنبية
+putamen|البطامة
+quadriceps femoris|العضلة رباعية الرؤوس الفخذية
+rectus capitis anterior|العضلة المستقيمة الأمامية للرأس
+rectus capitis lateralis|العضلة المستقيمة الوحشية للرأس
+rectus capitis posterior major|العضلة المستقيمة الخلفية الكبرى للرأس
+rectus capitis posterior minor|العضلة المستقيمة الخلفية الصغرى للرأس
+region|المنطقة
+respiratory system|الجهاز التنفسي
+retinaculum|القيد
+rib cage|القفص الصدري
+ring finger|البنصر
+root|الجذر
+rotator muscle|العضلة المدورة
+salpingopharyngeus|العضلة البوقية البلعومية
+scalene muscle|العضلة الأخمعية
+scaphoid|العظم الزورقي الرسغي
+sclera|الصلبة
+segment|القطعة
+segmental tributary|الرافد القطعي
+seminal vesicle|الحويصلة المنوية
+semispinalis|العضلة نصف الشوكية
+semispinalis capitis|العضلة نصف الشوكية للرأس
+semispinalis cervicis|العضلة نصف الشوكية للعنق
+semispinalis thoracis|العضلة نصف الشوكية للصدر
+septal nasal cartilage|غضروف الحاجز الأنفي
+septum|الحاجز
+serratus posterior|العضلة المنشارية الخلفية
+sesamoid bone|العظم السمسماني
+set|مجموعة
+shoulder|الكتف
+side|الجانب
+skeletal ligament|الرباط الهيكلي
+skeletal system|الجهاز الهيكلي
+skeleton|الهيكل العظمي
+skin appendage|ملحق الجلد
+soft palate|الحنك الرخو
+solid organ|عضو مصمت
+space|الحيز
+sphenoid bone|العظم الوتدي
+spinalis|العضلة الشوكية
+spinalis thoracis|العضلة الشوكية الصدرية
+splenius|العضلة الطحالية
+sternohyoid|العضلة القصية اللامية
+sternothyroid|العضلة القصية الدرقية
+stria|الشريط
+stria medullaris|الشريط النخاعي
+stria terminalis|الشريط الانتهائي
+stylohyoid|العضلة الإبرية اللامية
+stylohyoid ligament|الرباط الإبري اللامي
+stylopharyngeus|العضلة الإبرية البلعومية
+subaortic curtain|الستارة تحت الأبهرية
+subarachnoid incisure|الثلمة تحت العنكبوتية
+subarachnoid space|الحيز تحت العنكبوتية
+subcortex|تحت القشرة
+subdivision|القسم الفرعي
+sublingual gland|الغدة تحت اللسان
+submandibular gland|الغدة تحت الفك السفلي
+suprahyoid muscle|العضلة فوق اللامية
+supramarginal gyrus|التلفيف فوق الهامشي
+supra-orbital nerve|العصب فوق الحجاج
+supratrochlear nerve|العصب فوق البكري
+suspensory ligament|الرباط المعلق
+systemic arterial system|الجهاز الشرياني الجهازي
+systemic arterial tree|الشجرة الشريانية الجهازية
+systemic arterial trunk|الجذع الشرياني الجهازي
+systemic venous system|الجهاز الوريدي الجهازي
+systemic venous tree|الشجرة الوريدية الجهازية
+taenia coli|الشريط القولوني
+taenia libera|الشريط الحر
+taenia mesocolica|الشريط المسراقي القولوني
+taenia omentalis|الشريط الثربي
+talus|عظم الكاحل
+tarsal bone|عظم الرصغ
+tarsal ligament|الرباط الرصغي
+tarsal plate|الصفيحة الرصغية
+telencephalon|الدماغ الانتهائي
+temporal bone|العظم الصدغي
+temporal lobe|الفص الصدغي
+tendinous arch|القوس الوترية
+tendon|الوتر
+tensor fasciae latae|العضلة الموترة للفافة العريضة
+tensor veli palatini|العضلة الموترة لشراع الحنك
+tentorium cerebelli|خيمة المخيخ
+thalamogeniculate artery|الشريان المهادي الركبي
+thalamoperforating artery|الشريان المهادي الثاقب
+thalamus|المهاد
+thenar muscle|عضلة رَانِفة الإبهام
+thigh|الفخذ
+thoracic intervertebral symphysis|الارتفاق بين الفقرات الصدرية
+thoracic rotator|العضلة المدورة الصدرية
+thoracic vertebra|الفقرة الصدرية
+thoracic vertebrae|الفقرات الصدرية
+thoracic vertebral column|العمود الفقري الصدري
+thoracic wall|جدار الصدر
+thoraco-acromial artery|الشريان الصدري الأخرمي
+thoracodorsal artery|الشريان الصدري الظهري
+thoracodorsal vein|الوريد الصدري الظهري
+thorax|الصدر
+thumb|الإبهام
+thyro-arytenoid|العضلة الدرقية الطرجهالية
+thyro-epiglottic ligament|الرباط الدرقي لسان المزماري
+thyrocervical artery|الشريان الدرقي العنقي
+thyrocervical trunk|الجذع الدرقي العنقي
+thyrohyoid|العضلة الدرقية اللامية
+thyrohyoid ligament|الرباط الدرقي اللامي
+thyrohyoid membrane|الغشاء الدرقي اللامي
+thyroid cartilage|الغضروف الدرقي
+toe|إصبع القدم
+tooth|السن
+tracheobronchial tree|الشجرة الرغامية القصبية
+transverse arytenoid|العضلة الطرجهالية المستعرضة
+transverse colon|القولون المستعرض
+transverse mesocolon|مسراق القولون المستعرض
+trapezium|العظم المربعي
+trapezoid|العظم شبه المنحرف
+tributary|الرافد
+tricuspid valve|الصمام ثلاثي الشرفات
+triquetral|العظم المثلثي
+trochlea|البكرة
+trochlear nerve|العصب البكري
+trigeminal nerve|العصب ثلاثي التوائم
+trunk|الجذع
+tuber cinereum|الحديبة الرمادية
+urinary system|الجهاز البولي
+uvula|اللهاة
+uvular muscle|العضلة اللهاوية
+vascular tree|الشجرة الوعائية
+vascular tree organ|عضو شجري وعائي
+arterial tree organ|عضو شجري شرياني
+vasculature|الأوعية الدموية
+vein|الوريد
+veins|الأوردة
+venous tree organ|عضو شجري وريدي
+venous trunk|الجذع الوريدي
+ventricle|البطين
+atrium|الأذين
+ventricular system|الجهاز البطيني
+visceral peritoneum|الصفاق الحشوي
+viscerocranium|القحف الحشوي
+vitreous body|الجسم الزجاجي
+vocal ligament|الرباط الصوتي
+vocalis|العضلة الصوتية
+vomer|عظم الميكعة
+wall|الجدار
+white matter|المادة البيضاء
+wrist|الرسغ
+xiphoid process|الناتئ الرهابي
+zone|النطاق
+zone of continuity|نطاق الاستمرارية
+zygomatic bone|العظم الوجني
+part|الجزء
+division|القسم
+sector|القطاع
+free wall|الجدار الحر
+tissue|النسيج
+dura mater|الأم الجافية
+epidermis|البشرة
+epithelium|الظهارة
+laryngopharynx|البلعوم الحنجري
+serous membrane|الغشاء المصلي
+interspinales cervicis|العضلات بين الشوكية العنقية
+interspinales lumborum|العضلات بين الشوكية القطنية
+levatores costarum breves|العضلات الرافعة القصيرة للأضلاع
+levatores costarum longi|العضلات الرافعة الطويلة للأضلاع
+dorsal interossei|العضلات بين العظمية الظهرية
+palmar interossei|العضلات بين العظمية الراحية
+cervical intertransversarii|العضلات بين المستعرضات العنقية
+bronchopulmonary segment|القطعة القصبية الرئوية
+segmental artery|الشريان القطعي
+segmental vein|الوريد القطعي
+segmental bronchial tree|الشجرة القصبية القطعية
+arch|القوس
+arterial arch|القوس الشريانية
+venous arch|القوس الوريدية
+venous network|الشبكة الوريدية
+venous tree|الشجرة الوريدية
+cardiac venous tree|الشجرة الوريدية القلبية
+auriculotemporal part|الجزء الأذني الصدغي
+calcaneal branches|الفروع العقبية
+cartilaginous part|الجزء الغضروفي
+cavitated organ parts|أجزاء أعضاء مجوفة
+central sulcus|التلم المركزي
+postcentral sulcus|التلم خلف المركزي
+precentral sulcus|التلم أمام المركزي
+fascial system|الجهاز اللفافي
+finger|إصبع اليد
+gray matter component|مكوّن المادة الرمادية
+vena caval tree|شجرة الوريد الأجوف
+network|الشبكة
+organ cavity|جوف العضو
+palate|الحنك
+ring|الحلقة
+sternocostal part|الجزء القصي الضلعي
+sulcus|التلم
+symphysis|الارتفاق
+tree|الشجرة
+third ventricle|البطين الثالث
+fourth ventricle|البطين الرابع
+anterior limb|الساق الأمامية
+posterior limb|الساق الخلفية
+precommunicating part|الجزء قبل المواصل
+postcommunicating part|الجزء بعد المواصل

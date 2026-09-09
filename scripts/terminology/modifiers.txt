@@ -1,0 +1,199 @@
+anterior|الأمامي|الأمامية
+posterior|الخلفي|الخلفية
+superior|العلوي|العلوية
+inferior|السفلي|السفلية
+upper|العلوي|العلوية
+lower|السفلي|السفلية
+middle|الأوسط|الوسطى
+medial|الإنسي|الإنسية
+lateral|الوحشي|الوحشية
+median|الناصف|الناصفة
+intermediate|المتوسط|المتوسطة
+central|المركزي|المركزية
+peripheral|المحيطي|المحيطية
+anterior inferior|الأمامي السفلي|الأمامية السفلية
+posterior inferior|الخلفي السفلي|الخلفية السفلية
+anterior superior|الأمامي العلوي|الأمامية العلوية
+posterior superior|الخلفي العلوي|الخلفية العلوية
+anterolateral|الأمامي الوحشي|الأمامية الوحشية
+posteromedial|الخلفي الإنسي|الخلفية الإنسية
+inferomedial|السفلي الإنسي|السفلية الإنسية
+intermediomedial|المتوسط الإنسي|المتوسطة الإنسية
+antero-medial|الأمامي الإنسي|الأمامية الإنسية
+mediobasal|الإنسي القاعدي|الإنسية القاعدية
+laterobasal|الوحشي القاعدي|الوحشية القاعدية
+apicoposterior|القمي الخلفي|القمية الخلفية
+basal|القاعدي|القاعدية
+apical|القمي|القمية
+subsuperior|تحت العلوي|تحت العلوية
+accessory|الإضافي|الإضافية
+external|الخارجي|الخارجية
+internal|الداخلي|الداخلية
+extrinsic|الخارجي المنشأ|الخارجية المنشأ
+intrinsic|الداخلي المنشأ|الداخلية المنشأ
+deep|العميق|العميقة
+superficial|السطحي|السطحية
+free|الحر|الحرة
+proximal|الداني|الدانية
+distal|القاصي|القاصية
+long|الطويل|الطويلة
+short|القصير|القصيرة
+major|الكبير|الكبيرة
+minor|الصغير|الصغيرة
+great|الكبير|الكبيرة
+small|الصغير|الصغيرة
+ascending|الصاعد|الصاعدة
+descending|النازل|النازلة
+transverse|المستعرض|المستعرضة
+oblique|المائل|المائلة
+straight|المستقيم|المستقيمة
+vertical|العمودي|العمودية
+terminal|الانتهائي|الانتهائية
+precommunicating|قبل المواصل|قبل المواصلة
+postcommunicating|بعد المواصل|بعد المواصلة
+intrapulmonary|داخل الرئوي|داخل الرئوية
+intracranial|داخل القحفي|داخل القحفية
+intrahepatic|داخل الكبدي|داخل الكبدية
+pre-hepatic|قبل الكبدي|قبل الكبدية
+postvertebral|خلف الفقري|خلف الفقرية
+suboccipital|تحت القذالي|تحت القذالية
+subendocardial|تحت الشغافي|تحت الشغافية
+interventricular|بين البطيني|بين البطينية
+interosseous|بين العظمي|بين العظمية
+intercostal|الوربي|الوربية
+subcostal|تحت الضلعي|تحت الضلعية
+supreme|الأعلى|العليا
+recurrent|الراجع|الراجعة
+collateral|الجانبي|الجانبية
+communicating|المواصل|المواصلة
+circumflex|المنعطف|المنعطفة
+perforating|الثاقب|الثاقبة
+diagonal|القطري|القطرية
+arcuate|المقوس|المقوسة
+septal|الحاجزي|الحاجزية
+ventricular|البطيني|البطينية
+segmental|القطعي|القطعية
+subsegmental|تحت القطعي|تحت القطعية
+systemic|الجهازي|الجهازية
+pulmonary|الرئوي|الرئوية
+bronchial|القصبي|القصبية
+hepatic|الكبدي|الكبدية
+renal|الكلوي|الكلوية
+cerebral|المخي|المخية
+cerebellar|المخيخي|المخيخية
+choroidal|المشيمي|المشيمية
+spinal|الشوكي|الشوكية
+cardiac|القلبي|القلبية
+coronary|التاجي|التاجية
+arterial|الشرياني|الشريانية
+venous|الوريدي|الوريدية
+vascular|الوعائي|الوعائية
+biliary|الصفراوي|الصفراوية
+basilar|القاعدي|القاعدية
+parietal|الجداري|الجدارية
+temporal|الصدغي|الصدغية
+frontal|الجبهي|الجبهية
+prefrontal|أمام الجبهي|أمام الجبهية
+frontobasal|الجبهي القاعدي|الجبهية القاعدية
+occipital|القذالي|القذالية
+polar temporal|القطبي الصدغي|القطبية الصدغية
+temporo-occipital|الصدغي القذالي|الصدغية القذالية
+pontine|الجسري|الجسرية
+splenial|الثفني الخلفي|الثفنية الخلفية
+precuneal|الإسفيني الأمامي|الإسفينية الأمامية
+paracentral|المجاور للمركز|المجاورة للمركز
+hypothalamic|الوطائي|الوطائية
+insular|الجزيري|الجزيرية
+sphenoid|الوتدي|الوتدية
+optic|البصري|البصرية
+ciliary|الهدبي|الهدبية
+ethmoidal|الغربالي|الغربالية
+ophthalmic|العيني|العينية
+nasal|الأنفي|الأنفية
+orbital|الحجاجي|الحجاجية
+basicranial|القاعدي القحفي|القاعدية القحفية
+cranial|القحفي|القحفية
+cervical|العنقي|العنقية
+thoracic|الصدري|الصدرية
+abdominal|البطني|البطنية
+lumbar|القطني|القطنية
+sacral|العجزي|العجزية
+coccygeal|العصعصي|العصعصية
+pelvic|الحوضي|الحوضية
+axillary|الإبطي|الإبطية
+brachial|العضدي|العضدية
+humeral|العضدي|العضدية
+radial|الكعبري|الكعبرية
+ulnar|الزندي|الزندية
+femoral|الفخذي|الفخذية
+tibial|الظنبوبي|الظنبوبية
+fibular|الشظوي|الشظوية
+popliteal|المأبضي|المأبضية
+genicular|الركبي|الركبية
+gluteal|الألوي|الألوية
+obturator|السدادي|السدادية
+iliac|الحرقفي|الحرقفية
+pudendal|الفرجي|الفرجية
+perineal|العجاني|العجانية
+scapular|الكتفي|الكتفية
+subscapular|تحت الكتفي|تحت الكتفية
+suprascapular|فوق الكتفي|فوق الكتفية
+pectoral|الصدري|الصدرية
+deltoid|الدالي|الدالية
+acromial|الأخرمي|الأخرمية
+clavicular|الترقوي|الترقوية
+sternal|القصي|القصية
+mandibular|الفكي السفلي|الفكية السفلية
+maxillary|الفكي العلوي|الفكية العلوية
+faucial|البرزخي الفموي|البرزخية الفموية
+anal|الشرجي|الشرجية
+patellar|الرضفي|الرضفية
+carpal|الرسغي|الرسغية
+tarsal|الرصغي|الرصغية
+metacarpal|المشطي اليدي|المشطية اليدية
+metatarsal|المشطي القدمي|المشطية القدمية
+palmar|الراحي|الراحية
+plantar|الأخمصي|الأخمصية
+dorsal|الظهري|الظهرية
+digital|الإصبعي|الإصبعية
+common|المشترك|المشتركة
+proper|الخاص|الخاصة
+variant|المتغير تشريحيًا|المتغيرة تشريحيًا
+esophageal|المريئي|المريئية
+oesophageal|المريئي|المريئية
+gastric|المعدي|المعدية
+pancreatic|البنكرياسي|البنكرياسية
+pancreaticoduodenal|البنكرياسي الاثنا عشري|البنكرياسية الاثنا عشرية
+cecal|الأعوري|الأعورية
+appendicular|الزائدي|الزائدية
+ileal|اللفائفي|اللفائفية
+colic|القولوني|القولونية
+sigmoid|السيني|السينية
+rectal|المستقيمي|المستقيمية
+mesenteric|المساريقي|المساريقية
+phrenic|الحجابي|الحجابية
+epigastric|الشرسوفي|الشرسوفية
+thyroid|الدرقي|الدرقية
+suprarenal|الكظري|الكظرية
+testicular|الخصوي|الخصوية
+splenic|الطحالي|الطحالية
+jugular|الوداجي|الوداجية
+lingular|اللسيني|اللسينية
+caudal|الذيلي|الذيلية
+marginal|الهامشي|الهامشية
+ureteric|الحالبي|الحالبية
+autonomic|الذاتي|الذاتية
+parasympathetic|نظير الودي|نظيرة الودية
+vermian|الدودي المخيخي|الدودية المخيخية
+fibrous|الليفي|الليفية
+membranous|الغشائي|الغشائية
+bony|العظمي|العظمية
+skeletal|الهيكلي|الهيكلية
+flat|المسطح|المسطحة
+irregular|غير المنتظم|غير المنتظمة
+pneumatized|المهوّى|المهوّاة
+true|الحقيقي|الحقيقية
+false|الكاذب|الكاذبة
+floating|العائم|العائمة
+typical|النموذجي|النموذجية
+atypical|غير النموذجي|غير النموذجية

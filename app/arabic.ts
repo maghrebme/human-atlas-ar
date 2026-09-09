@@ -1,3 +1,4 @@
+import catalogueArabic from './terminology-ar.json' with {type:'json'};
 import type {Concept, SystemId} from './anatomy';
 
 /** Translation layer only: canonical labels, concept IDs and model data stay intact. */
@@ -152,6 +153,8 @@ const muscleParts:Record<string,string>={
 };
 export function arabicName(name:string):string|null {
  const key=name.toLowerCase().trim();
+ const translated=(catalogueArabic as Record<string,string>)[key];
+ if(translated) return translated;
  if(terms[key]) return terms[key];
  const compound=key.match(/^(.+?) of (.+)$/);
  if(compound && muscleParts[compound[1]]){
