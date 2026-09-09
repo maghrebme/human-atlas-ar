@@ -26,7 +26,7 @@ function ComboboxTrigger({
 }: ComboboxPrimitive.Trigger.Props) {
   return (
     <ComboboxPrimitive.Trigger
-      data-slot="combobox-trigger"
+      data-slot="combobox-trigger" aria-label="عرض الخيارات"
       className={cn("[&_svg:not([class*='size-'])]:size-4", className)}
       {...props}
     >
@@ -39,7 +39,7 @@ function ComboboxTrigger({
 function ComboboxClear({ className, ...props }: ComboboxPrimitive.Clear.Props) {
   return (
     <ComboboxPrimitive.Clear
-      data-slot="combobox-clear"
+      data-slot="combobox-clear" aria-label="مسح البحث"
       render={<InputGroupButton variant="ghost" size="icon-xs" />}
       className={cn(className)}
       {...props}
@@ -254,7 +254,7 @@ function ComboboxChip({
         <ComboboxPrimitive.ChipRemove
           render={<Button variant="ghost" size="icon-xs" />}
           className="-ml-1 opacity-50 hover:opacity-100"
-          data-slot="combobox-chip-remove"
+          data-slot="combobox-chip-remove" aria-label="إزالة الاختيار"
         >
           <XIcon className="pointer-events-none" />
         </ComboboxPrimitive.ChipRemove>

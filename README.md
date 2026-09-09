@@ -1,3 +1,11 @@
+# جسم الإنسان
+
+أطلس تشريحي تفاعلي بالعربية، مبني على Human Atlas. واجهة RTL بخط IBM Plex Sans Arabic وأرقام 0–9، وبحث ثنائي اللغة ودروس واختبارات أولية.
+
+See [Arabic edition setup, validation and terminology coverage](ARABIC-EDITION.md). Arabic terminology currently covers 146 of 3,432 concepts; English source terminology remains available throughout.
+
+## Original project documentation
+
 # Human Atlas
 
 An interactive 3D anatomy explorer built with React, Three.js, and shadcn/ui. Take the BodyParts3D adult male reference apart into **2,234 individually selectable meshes**, explore **15 anatomical systems**, and search **3,432 named concepts**.

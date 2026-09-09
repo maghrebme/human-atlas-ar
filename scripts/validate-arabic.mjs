@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {normalizeArabic,arabicName,searchConcepts} from '../app/arabic.ts';
+const atlas=JSON.parse(readFileSync(new URL('../public/models/atlas.json',import.meta.url)));
+const original=JSON.stringify(atlas);
+assert.equal(normalizeArabic(' إِلَـى  الأَوْرِدَة '),normalizeArabic('الي الاورده'));
+for(const query of ['القلب','الْقَلْب','قـلب','Heart','HEART']) assert.equal(searchConcepts(atlas.concepts,query)[0]?.name,'heart',query);
+assert.ok(searchConcepts(atlas.concepts,'القصبة الهوائية').some(c=>c.name==='trachea'));
+assert.ok(searchConcepts(atlas.concepts,'كلية').some(c=>c.name.includes('kidney')));
+assert.equal(arabicName('left femur'),'عظم الفخذ (يسار)');
+assert.equal(arabicName('unknown structure'),null);
+assert.equal(searchConcepts(atlas.concepts,'no-such-structure').length,0);
+assert.equal(searchConcepts(atlas.concepts,'   ').length,0);
+assert.equal(searchConcepts(atlas.concepts,atlas.concepts[0].id)[0].id,atlas.concepts[0].id);
+assert.ok(searchConcepts(atlas.concepts,'artery').length<=80);
+assert.equal(JSON.stringify(atlas),original,'Search must not mutate the canonical atlas');
+const translated=atlas.concepts.filter(c=>arabicName(c.name));
+console.log(`Arabic normalization, bilingual search, aliases, IDs, ranking and immutable data passed. ${translated.length}/${atlas.concepts.length} concepts have Arabic labels.`);
