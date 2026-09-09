@@ -37,7 +37,7 @@ npm run build
 
 ## Translation coverage
 
-468 of 3,432 source concepts currently resolve to Arabic labels (including left/right variants). This is a curated starter dictionary, not a complete Arabic anatomical nomenclature. Extend `app/arabic.ts` with exact canonical English keys; do not edit `public/models/atlas.json` or translate IDs. Untranslated structures explicitly retain their source name. Detailed Arabic explanations cover nine major structures; other descriptions are labeled as system overviews.
+All 3,432 current source concepts and all 2,234 selectable parts resolve to Arabic labels, including nested compound names. The exact catalogue is in `app/terminology-ar.json`; its reproducible lexicon and composition rules are in `scripts/terminology/`. Coverage is enforced by `scripts/validate-arabic.mjs`. This measures translation coverage, not independent clinical review. English source names remain available. Do not edit `public/models/atlas.json` or translate IDs. Detailed Arabic explanations cover nine major structures; other descriptions are labeled as system overviews.
 
 ## Validation
 
