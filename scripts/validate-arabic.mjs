@@ -20,3 +20,9 @@ console.log(`Arabic normalization, bilingual search, aliases, IDs, ranking and i
 assert.equal(arabicName("Right serratus posterior inferior"), "العضلة المنشارية الخلفية السفلية (يمين)");
 assert.equal(arabicName("Left serratus posterior inferior"), "العضلة المنشارية الخلفية السفلية (يسار)");
 assert.ok(searchConcepts(atlas.concepts,"المنشارية الخلفية السفلية").some(c=>c.name.toLowerCase()==="right serratus posterior inferior"));
+
+assert.equal(arabicName('Long head of right biceps brachii'),'الرأس الطويل للعضلة ذات الرأسين العضدية (يمين)');
+assert.equal(arabicName('Short head of left biceps femoris'),'الرأس القصير للعضلة ذات الرأسين الفخذية (يسار)');
+assert.equal(arabicName('clavicular part of right pectoralis major'),'الجزء الترقوي للعضلة الصدرية الكبرى (يمين)');
+assert.equal(arabicName('long head of unknown muscle'),null);
+assert.ok(searchConcepts(atlas.concepts,'الرأس الطويل').some(c=>c.name.toLowerCase()==='long head of right biceps brachii'));
