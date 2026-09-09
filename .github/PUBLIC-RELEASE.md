@@ -4,7 +4,7 @@
 
 Before changing visibility:
 
-- Authorize GitHub CLI with the `workflow` scope, upload the prepared `.github/workflows/` files, and verify their runs. Workflow upload is currently blocked by the saved login permissions.
+- Authorize GitHub CLI with the `workflow` scope, upload the prepared `.github/workflows/` files, and verify their runs. Workflow authorization has now been granted.
 
 - Review the sanitized commit history and files; preserve upstream MIT and dataset attribution.
 - Check that CI and the secret scan pass on the rewritten `main`.
@@ -26,4 +26,4 @@ The repository is now public and branch protection is enabled. See [protected br
 
 External pull request creation is restricted to collaborators; only the owner currently has write access and there are no pending collaborator invitations. Automatic merging is disabled. Dependabot alerts and security updates are enabled; updates create pull requests for review rather than merging themselves.
 
-The repository is now public. Secret scanning, push protection, private vulnerability reporting, Dependabot alerts and security updates are enabled. `main` disallows force pushes and deletion, including for administrators, and requires conversation resolution. External pull requests remain restricted to collaborators and automatic merging is disabled. No CI status checks are required yet because workflow upload still awaits OAuth `workflow` authorization; enable required checks after the workflows are uploaded and have passed.
+The repository is now public. Secret scanning, push protection, private vulnerability reporting, Dependabot alerts and security updates are enabled. `main` disallows force pushes and deletion, including for administrators, and requires conversation resolution. External pull requests remain restricted to collaborators and automatic merging is disabled. CI, secret-scanning and CodeQL workflows are being enabled. Require their status checks after successful initial runs.

@@ -10,6 +10,6 @@ This is a static browser application with no required API keys or application lo
 
 Production security headers are configured in `vercel.json`. Other hosts must apply equivalent headers. The content security policy permits inline styles required by React and the UI library, but no inline scripts or eval. Test actual HTTPS response headers and the 3D viewer after deployment. No production deployment is performed by CI.
 
-The prepared CI workflows use read-only default token permissions, immutable action pins, dependency auditing and catalogue/build validation. Their upload is currently pending GitHub OAuth `workflow` permission; they are not yet active on GitHub. After upload, CodeQL starts on public-repository events. Dependabot proposes updates; updates are reviewed and tested before merge.
+CI workflows use read-only default token permissions, immutable action pins, dependency auditing and catalogue/build validation. GitHub OAuth workflow authorization has been granted. CodeQL runs on public-repository events. Dependabot proposes updates; updates are reviewed and tested before merge.
 
 Routine Dependabot version-update PRs are disabled to reduce notification noise. Security alerts and grouped security-update PRs remain enabled. Email delivery is controlled separately in each user's [GitHub notification settings](https://github.com/settings/notifications); disabling email does not disable repository alerts.
