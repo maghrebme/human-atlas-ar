@@ -16,3 +16,7 @@ assert.ok(searchConcepts(atlas.concepts,'artery').length<=80);
 assert.equal(JSON.stringify(atlas),original,'Search must not mutate the canonical atlas');
 const translated=atlas.concepts.filter(c=>arabicName(c.name));
 console.log(`Arabic normalization, bilingual search, aliases, IDs, ranking and immutable data passed. ${translated.length}/${atlas.concepts.length} concepts have Arabic labels.`);
+
+assert.equal(arabicName("Right serratus posterior inferior"), "العضلة المنشارية الخلفية السفلية (يمين)");
+assert.equal(arabicName("Left serratus posterior inferior"), "العضلة المنشارية الخلفية السفلية (يسار)");
+assert.ok(searchConcepts(atlas.concepts,"المنشارية الخلفية السفلية").some(c=>c.name.toLowerCase()==="right serratus posterior inferior"));
