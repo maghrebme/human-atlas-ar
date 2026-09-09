@@ -138,11 +138,29 @@ export const terms: Record<string,string> = {
 export function normalizeArabic(value:string):string {
  return value.normalize('NFKD').replace(/[\u0300-\u036f\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06ed\u0640]/g,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه').toLowerCase().trim().replace(/\s+/g,' ');
 }
+const muscleParts:Record<string,string>={
+ 'long head':'الرأس الطويل','short head':'الرأس القصير',
+ 'lateral head':'الرأس الوحشي','medial head':'الرأس الإنسي',
+ 'superficial head':'الرأس السطحي','deep head':'الرأس العميق',
+ 'humeral head':'الرأس العضدي','ulnar head':'الرأس الزندي',
+ 'oblique head':'الرأس المائل','transverse head':'الرأس المستعرض',
+ 'clavicular part':'الجزء الترقوي','sternocostal part':'الجزء القصي الضلعي',
+ 'abdominal part':'الجزء البطني','acromial part':'الجزء الأخرمي',
+ 'spinal part':'الجزء الشوكي','ascending part':'الجزء الصاعد',
+ 'descending part':'الجزء النازل','transverse part':'الجزء المستعرض',
+ 'oblique part':'الجزء المائل','straight part':'الجزء المستقيم',
+};
 export function arabicName(name:string):string|null {
  const key=name.toLowerCase().trim();
  if(terms[key]) return terms[key];
+ const compound=key.match(/^(.+?) of (.+)$/);
+ if(compound && muscleParts[compound[1]]){
+  const muscle=arabicName(compound[2]);
+  if(muscle) return `${muscleParts[compound[1]]} ل${muscle.startsWith('ال')?muscle.slice(1):muscle}`;
+ }
+
  const side=key.match(/^(right|left) (.+)$/);
- if(side && terms[side[2]]) return `${terms[side[2]]} (${side[1]==='right'?'يمين':'يسار'})`;
+ if(side){const base=arabicName(side[2]);if(base)return `${base} (${side[1]==='right'?'يمين':'يسار'})`;}
  return null;
 }
 export function bilingualName(name:string):string {const ar=arabicName(name);return ar?`${ar} · ${name}`:name;}

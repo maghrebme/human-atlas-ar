@@ -4,7 +4,7 @@
 
 استكشف **2,234 جزءًا قابلًا للتحديد** ضمن **15 جهازًا ومجموعة تشريحية**، وابحث بين **3,432 مفهومًا تشريحيًا** من نموذج BodyParts3D المرجعي لذكر بالغ.
 
-> **English overview:** Jism Al Insan is an Arabic-first adaptation of [Human Atlas by ashemag](https://github.com/ashemag/human-atlas). It preserves the original Three.js renderer, anatomy geometry, source identifiers, and attribution, while adding an RTL interface, IBM Plex Sans Arabic, Latin digits (0–9), bilingual search, introductory lessons, and quizzes. Arabic terminology currently covers **381 of 3,432 concepts**; untranslated structures retain their English source names.
+> **English overview:** Jism Al Insan is an Arabic-first adaptation of [Human Atlas by ashemag](https://github.com/ashemag/human-atlas). It preserves the original Three.js renderer, anatomy geometry, source identifiers, and attribution, while adding an RTL interface, IBM Plex Sans Arabic, Latin digits (0–9), bilingual search, introductory lessons, and quizzes. Arabic terminology currently covers **468 of 3,432 concepts**; untranslated structures retain their English source names.
 
 ## المزايا والاستكشاف
 
@@ -58,7 +58,7 @@ npm run build
 
 يستخدم العارض **BodyParts3D 4.0**، وهو نموذج تشريحي مرجعي لذكر بالغ مرخّص بموجب **CC BY 4.0**. لا يمثل كل البنى البشرية أو الاختلافات التشريحية. قد يضم المفهوم المسمى عدة أجزاء هندسية منفصلة، وتميز الأوصاف بين شرح العضو ونبذة عامة عن الجهاز.
 
-تغطي المصطلحات العربية حاليًا **381 من 3,432 مفهومًا**. تبقى أسماء المصدر الإنجليزية متاحة، وتحتاج بقية المفاهيم إلى استكمال الترجمة. يمكن توسيع القاموس في `app/arabic.ts` دون تغيير معرّفات التشريح أو ملفات النموذج.
+تغطي المصطلحات العربية حاليًا **468 من 3,432 مفهومًا**. تبقى أسماء المصدر الإنجليزية متاحة، وتحتاج بقية المفاهيم إلى استكمال الترجمة. يمكن توسيع القاموس في `app/arabic.ts` دون تغيير معرّفات التشريح أو ملفات النموذج.
 
 تضم الهندسة المرفقة **2,288,268 مثلثًا**، ويبلغ حجم تنزيل الهندسة المضغوطة نحو **33 MB**. جرى تبسيطها للعرض في المتصفح مع الاحتفاظ بكل جزء مصدري. راجع [حقوق البيانات ومصادرها](public/ATTRIBUTION.md) للاطلاع على الإسناد وتفاصيل التعديلات.
 
