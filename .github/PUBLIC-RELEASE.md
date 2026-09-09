@@ -4,6 +4,8 @@
 
 Before changing visibility:
 
+- Authorize GitHub CLI with the `workflow` scope, upload the prepared `.github/workflows/` files, and verify their runs. Workflow upload is currently blocked by the saved login permissions.
+
 - Review the sanitized commit history and files; preserve upstream MIT and dataset attribution.
 - Check that CI and the secret scan pass on the rewritten `main`.
 - Git history rewriting changes commit IDs. Existing clones must re-clone or explicitly reset; do not merge old history back.
