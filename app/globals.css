@@ -139,3 +139,10 @@ body:has(.learning-panel) .layers-panel{display:none}
 
 /* Keep the localized edition badge clear on narrow phones. */
 @media(max-width:767px){h1 .edition{display:none}}
+
+/* Compact the explode dock without shrinking its 44px slider hit area. */
+.bottom-dock{padding-block:12px}
+.explode-label{margin-bottom:2px}
+.explode-control [data-slot=slider]{padding-block:0}
+.slider-endpoints{margin-top:0}
+@media(max-width:767px){.bottom-dock{padding-block:10px}}
