@@ -37,3 +37,17 @@ next-env.d.ts
 /outputs/
 /work/
 *.tsbuildinfo
+
+# Credentials and local backups
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.bundle
+*.bak
+.npmrc
+.netrc
+.ssh/
+.idea/
+.vscode/

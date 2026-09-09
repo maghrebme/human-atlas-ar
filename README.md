@@ -91,3 +91,9 @@ This repository contains the Arabic edition of **Jism Al Insan**, derived from [
 To run locally, install **Node.js 22.13+**, run `npm ci`, then `npm run dev -- --host 127.0.0.1`, and open [http://127.0.0.1:3016](http://127.0.0.1:3016). Run `npm run build` to generate the static site in `dist/`. No API keys are required. See [ARABIC-EDITION.md](ARABIC-EDITION.md) for implementation details, validation, and known limitations.
 
 English anatomical names remain available alongside translated Arabic names. Translation coverage is incomplete, and the model is an adult male reference rather than a complete representation of human anatomical variation. The application is intended for education, not diagnosis or surgical planning. Code is MIT-licensed; anatomy data is separately licensed under **CC BY 4.0**, with full attribution in [public/ATTRIBUTION.md](public/ATTRIBUTION.md).
+
+## الأمان والخصوصية / Security and privacy
+
+لا يتطلب التطبيق مفاتيح API. لا تضف بيانات شخصية أو أسرارًا إلى الشيفرة أو ملفات البيئة المرسلة إلى GitHub. راجع [سياسة الأمان](SECURITY.md) و[خطوات النشر العام](.github/PUBLIC-RELEASE.md).
+
+Security reporting and deployment guidance: [SECURITY.md](SECURITY.md). Public-release settings: [release checklist](.github/PUBLIC-RELEASE.md).
